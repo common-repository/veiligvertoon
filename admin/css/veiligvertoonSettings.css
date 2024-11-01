@@ -1,0 +1,57 @@
+/*import the fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Overlock:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+.select2-search__field{
+    height:30px!important;
+}
+
+#lato {
+    font-family: Lato;
+}
+
+#roboto {
+    font-family: Roboto;
+}
+
+.themeSelectorPreviewContainer label {
+    width: 55px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+    .themeSelectorPreviewContainer input{
+        margin: 0 auto!important;
+        display: block!important;
+    }
+
+    .themeSelectorPreviewContainer #lightThemeLabel {
+        border: 1px solid black;
+        background-color:#FAFAFA;
+        color:#393B43;
+    }
+    .themeSelectorPreviewContainer #darkThemeLabel {
+        border: 1px solid white;
+        background-color:#1e1e1e;
+        color:#ffffffe2;
+    }
+    .themeSelectorPreviewContainer #customThemeLabel {
+        border: 1px solid white;
+        background: linear-gradient(135deg, #557A95 50%, #938E93 50%);
+        color:white;
+    }
+
+    .themeSelectorPreviewContainer .singleThemeOptionContainer{
+        float:left;
+        margin-right:10px;
+    }
+        .singleThemeOptionContainer span{
+            display: block;
+            text-align: center;
+        }
+
+.safetyInformationPreview {
+    display: inline-block;
+    vertical-align: top;
+    width:50%;
+}

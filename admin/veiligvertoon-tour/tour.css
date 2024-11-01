@@ -1,0 +1,83 @@
+.veiligvertoon-tour-step .shepherd-header,
+.veiligvertoon-tour-step .shepherd-button {
+    background-color: #214CCD !important;
+}
+
+.veiligvertoon-tour-step .shepherd-title,
+.veiligvertoon-tour-step .shepherd-button {
+    color: white !important;
+}
+
+.veiligvertoon-tour-step .shepherd-button:hover {
+    color: white !important;
+    background: #1443cb !important;
+}
+
+.shepherd-element[data-popper-placement="top"] .shepherd-arrow::before {
+    background-color: #fff !important;
+}
+
+.shepherd-element[data-popper-placement="bottom"] .shepherd-arrow::before {
+    background-color: #1443cb !important;
+}
+
+[data-popper-reference-hidden='true'] {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.active-information-example {
+    background: url(../../shared/images/product-status-examples/active-example.png);
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: unset;
+}
+
+.paused-information-example {
+    background: url(../../shared/images/product-status-examples/paused-example.png);
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: unset;
+}
+
+.active-information-example-en {
+    background: url(../../shared/images/product-status-examples/active-example-en.png);
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: unset;
+}
+
+.paused-information-example-en {
+    background: url(../../shared/images/product-status-examples/paused-example-en.png);
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: unset;
+}
+
+
+.veiligvertoon-tour-step .center-example-text{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: block;
+}
+
+.veiligvertoon-tour-step .center-example-image{
+    margin: auto;
+}
+
+.shepherd-cancel-icon{
+    color: #fff !important;
+}
+
+.shepherd-target-click-disabled {
+    pointer-events: none!important;
+}

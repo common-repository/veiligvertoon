@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+# === Settings/menu registration ===
+msgid "Veiligvertoon Activation"
+msgstr "Veiligvertoon Activatie"
+
+msgid "Activation"
+msgstr "Activatie"
+
+# === Settings/activationPage ===
+msgid "Enter your activation code"
+msgstr "Vul hier je activatiecode in"
+
+msgid "Activate your account"
+msgstr "Activeer je account"
+
+msgid "Activation code"
+msgstr "Activatiecode"
+
+msgid "Enter your activation code here. You can find it under the \"Account\" section in your veiligvertoon dashboard at www.veiligvertoon.nl."
+msgstr "Voer hier je activatiecode in. Deze vind je onder het kopje \"Account\" in je veiligvertoon dashboard op www.veiligvertoon.nl."
+
+msgid "Activate Veiligvertoon"
+msgstr "Activeer Veiligvertoon"
+
+msgid "You have already activated your account."
+msgstr "Je hebt je account al geactiveerd."
+
+# === settings/veiligvertoonStylingSettingPage ===
+msgid "Display settings"
+msgstr "Weergave instellingen"
+
+msgid "Display location"
+msgstr "Weergave locatie"
+
+msgid "The location on the product page where the safety information is displayed."
+msgstr "De locatie op de product pagina waar de veiligheidsinformatie wordt weergegeven."
+
+msgid "Display safety information with borders."
+msgstr "Veiligheidsinformatie weergeven met randen"
+
+msgid "Configure whether the safety information should be displayed with or without borders."
+msgstr "Configureer of de veiligheidsinformatie met of zonder randen moet worden weergegeven."
+
+msgid "Font"
+msgstr "Lettertype"
+
+msgid "The font in which the safety information is displayed."
+msgstr "Het lettertype waarin de veiligheidsinformatie wordt weergegeven."
+
+msgid "Display style"
+msgstr "Weergavestijl"
+
+msgid "Configure whether the safety information should be displayed open or closed by default."
+msgstr "Configureer of de veiligheidsinformatie standaard open of gesloten moet worden weergegeven."
+
+msgid "Color theme"
+msgstr "Kleur thema"
+
+msgid "Configure a theme for the display of the safety information."
+msgstr "Configureer een thema voor de weergave van de veiligheidsinformatie."
+
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+msgid "The background color of the safety information."
+msgstr "De achtergrond kleur van de veiligheidsinformatie."
+
+msgid "Font color"
+msgstr "Lettertype kleur"
+
+msgid "The color of the text and the borders of the safety information."
+msgstr "De kleur van de tekst en de en de randen van de veiligheidssinformatie."
+
+msgid "Safety information language"
+msgstr "Taal veiligheidsinformatie"
+
+msgid "The language in which the safety information is displayed. Note that switching between languages does not automatically translate self-filled text fields."
+msgstr "De taal waarin de veiligheidsinformatie wordt weergegeven. Let op wisselen tussen talen vertaalt niet automatisch zelf ingevulde tekst velden"
+
+msgid "Long description"
+msgstr "Onder productomschrijving"
+
+msgid "Short description"
+msgstr "Onder korte productomschrijving"
+
+msgid "Tab"
+msgstr "Eigen tabblad"
+
+msgid "Custom (advanced)"
+msgstr "Custom (geavanceerd)"
+
+msgid "Open"
+msgstr "Open"
+
+msgid "Closed"
+msgstr "Gesloten"
+
+msgid "Note: This feature is intended for custom work and requires changes in the code of your webshop. Use this feature only if you are aware of the required changes. For questions, contact support@veiligvertoon.nl."
+msgstr "Let op: Deze functie is bedoeld voor maatwerk en vereist aanpassingen in de code van je webshop. Gebruik deze functie alleen indien je je bewust bent van de benodigde wijzigingen. Neem voor vragen contact op met support@veiligvertoon.nl."
+
+msgid "Veiligvertoon settings"
+msgstr "Veiligvertoon instellingen"
+
+# === veiligvertoon-tour/veiligvertoonTour ===
+msgid "Start Tour"
+msgstr "Start Rondleiding"
+
+# === veiligvertoonAdminProductDetailExtension ===
+msgid "Save"
+msgstr "Opslaan"
+
+# === veiligvertoonAdminProductTableExtension ===
+msgid "Safety Information"
+msgstr "Veiligheidsinformatie"
+
+msgid "Show all"
+msgstr "Toon alles"
+
+msgid "Filled"
+msgstr "Ingevuld"
+
+msgid "Not filled"
+msgstr "Niet ingevuld"
+
+msgid "Last edited"
+msgstr "Laatst gewijzigd"

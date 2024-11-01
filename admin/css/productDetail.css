@@ -1,0 +1,321 @@
+
+/*Custom tab icon*/
+#woocommerce-coupon-data ul.wc-tabs li.veiligvertoon_tab a::before,
+#woocommerce-product-data ul.wc-tabs li.veiligvertoon_tab a::before,
+.woocommerce ul.wc-tabs li.veiligvertoon_tab a::before {
+    font-family: Dashicons;
+    content: "\f327";
+    /*content:url("../../shared/images/vv_checkmark.svg");*/
+}
+
+@media only screen and (max-width: 1280px) {
+    .select-wrapper > .select2-container {
+        width: 80% !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .select-wrapper > .select2-container {
+        width: 50% !important;
+    }
+}
+
+/* By default we want to hide the download-name input field */
+.download-name-input {
+    display: none;
+}
+
+
+.select-wrapper > .select2-container--default .veiligvertoon-select:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    right: 6px;
+    margin-left: -4px;
+    margin-top: -2px;top: 50%;
+    width: 0;cursor: pointer;
+}
+
+.select-wrapper > .select2-container--open .veiligvertoon-select:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    border-color: transparent transparent #888 transparent;
+    border-width: 0 4px 5px 4px;
+    height: 0;
+    right: 6px;
+    margin-left: -4px;
+    margin-top: -2px;top: 50%;
+    width: 0;cursor: pointer
+}
+
+.veiligvertoon-select > .select2-selection__arrow {
+    display: none;
+}
+
+.veiligvertoon-select > .select2-selection__rendered {
+    padding-right: 24px;
+    padding-left: 5px;
+}
+
+.veiligvertoon-select > .select2-selection__rendered > .select2-selection__placeholder{
+    color: #646970 !important;
+}
+
+.select2-selection--single.veiligvertoon-select {
+    height: 40px !important;
+}
+
+.select2-selection--single.veiligvertoon-select > .select2-selection__rendered  {
+    line-height: 38px !important;
+    height: 100%;
+}
+
+.select2-selection--multiple.veiligvertoon-select {
+    padding-right: 20px !important;
+}
+
+.dropzone-long {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .veiligvertoon-form-container {
+        padding: 5px 20px 5px 20px!important;
+        display: flow-root;
+    }
+}
+
+@media (min-width: 500px) {
+    .veiligvertoon-form-container {
+        padding: 5px 20px 5px 162px!important;
+        display: flow-root;
+    }
+}
+
+@media (max-width: 1434px) {
+    .veiligvertoon-dropzone {
+        padding: 12px 5px;
+    }
+}
+
+@media (min-width: 1434px) {
+    .veiligvertoon-dropzone {
+        padding: 12px 54px;
+    }
+}
+
+
+@media (max-width: 1650px) {
+    .scan-button-wrapper {
+        margin-top: 10px;
+    }
+
+    .checkbox-wrapper {
+        display: block;
+    }
+}
+
+@media (min-width: 1650px) {
+    .scan-button-wrapper {
+        float: right;
+    }
+
+    .checkbox-wrapper {
+        display: inline-block;
+    }
+}
+
+.veiligvertoon-dropzone > .dz-file-preview {
+    left: 45%;
+    transform: translateX(-50%);
+}
+
+.veiligvertoon-select > .select2-selection__rendered > .select2-search--inline {
+    width: 100% !important;
+}
+
+.veiligvertoon-select > .select2-selection__rendered > .select2-search--inline > .select2-search__field {
+    width: 100% !important;
+}
+
+#veiligvertoon-tabs li .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+
+#veiligvertoon-tabs.ui-widget {
+    font-size: 12px !important;
+}
+
+/* Add padding to the tabs so the tabs won't overlap with the save button */
+#veiligvertoon-tabs #veiligvertoon-tab-list {
+    padding-right: 105px;
+}
+
+/* Add extra margin to the statements */
+.h-statements-table, .p-statements-table {
+    margin-left: 45px;
+}
+
+.toast {
+    opacity: 1 !important;
+}
+
+/* The container holding the selected H-Statement */
+.placeholder-input-container {
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+}
+
+/* Vertically center the icon inside of the parameter input */
+.placeholder-input-container .help-icon {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    position: absolute;
+}
+
+.placeholder-input-container input{
+    max-width: 140px;
+    padding-right: 20px;
+}
+
+/* Container holding the GHS-labels */
+.ghs-labels-container {
+    min-height: 1px;
+    float: left;
+}
+
+.ghs-labels-placeholder {
+    color: #000000c4;
+}
+
+/* Vertically center the clear button */
+.p-statements-select-container, .h-statements-select-container {
+    position: relative;
+}
+
+.btn-clear-items {
+    margin-left: -11.5px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+}
+
+/* Save button */
+.btn-save-tabs {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding-top: 0px!important;
+    height: 23px!important;
+    min-height: 23px!important;
+    line-height: 0px!important;
+}
+
+.btn-save-tabs i{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* Error icon which is being displayed in the tab */
+.error-icon {
+    margin-right: 5px;
+}
+
+.veiligvertoon-tab-anchor {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+/* Danger color from bootstrap */
+.danger {
+    color: #d9534f !important;
+}
+
+/* Hide the progress bar */
+.dz-progress {
+    /* progress bar covers file name */
+    display: none !important;
+}
+
+/* Change the cursor to a pointer when the user hovers over the file */
+.dz-details {
+    cursor: pointer!important;
+}
+
+
+/* The add custom-p sentence button */
+.add-custom-statement {
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #2271b1;
+}
+
+.add-custom-statement i {
+    display: inline-block;
+}
+
+.add-custom-statement span {
+    display: inline-block;
+}
+
+/* Custom p-statement table */
+.custom-statement-header {
+    width:120px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.custom-statements-container {
+    display: none;
+    margin-left: 45px;
+}
+
+.vv-textarea {
+    height: 21px;
+    width: 100%;
+    border: 1px solid rgb(118, 118, 118);
+    color: black;
+    border-radius: 3px!important;
+}
+
+.vv-textarea:focus {
+    border-color: unset;
+    box-shadow: unset;
+    outline: 1px solid black;
+}
+
+/* Adds 45 margin left (Default margin size for the form elements) */
+.custom-statement-header {
+    display: block;
+}
+
+/* fix an issue where the selcted p/h scentence tags display the remove button within the text */
+.veiligvertoon_container .select2-container .select2-selection--multiple .select2-selection__choice {
+    padding: 1px 22px!important;
+}
+
+.vv-product-limit-error-container{
+    border-radius: 5px;
+    background-color: #0087F7;
+    color:#ffffff !important;
+}
+
+
+.vv-product-limit-error-container a {
+    font-weight: bold;
+    color:#ffffff !important;
+}

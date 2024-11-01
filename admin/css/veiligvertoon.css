@@ -1,0 +1,39 @@
+.wp-toolbar{
+     /*overflow: hidden!important;*/
+}
+
+.column-veiligvertoon {
+    text-align: center !important;
+}
+
+.fa-font{
+    font-family: 'FONT AWESOME 5 FREE', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,Cantarell, 'Helvetica Neue',sans-serif;
+}
+
+/* The fixed table layout breaks the responsiveness of custom columns. Disable this class to resolve this */
+.fixed{
+    table-layout: auto!important;
+}
+
+.veiligvertoon_container {
+    padding: 10px !important;
+}
+
+.help-icon {
+    margin-left: 9px !important;
+}
+
+.tag-select {
+    display: inline-block !important;
+    border: 1px solid #8c8f94 !important;
+    border-radius: 4px !important;
+}
+
+.required-red{
+    color:red;
+}
+
+.display-block{
+    display: block;
+}
+

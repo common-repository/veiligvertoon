@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Language: en_US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# === Settings/menu registration ===
+msgid "Veiligvertoon Activation"
+msgstr ""
+
+msgid "Activation"
+msgstr ""
+
+# === Settings/activation ===
+msgid "Enter your activation code"
+msgstr ""
